@@ -1,0 +1,159 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav
+{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+
+.imgs
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 60px 0px;
+    width: 100%;
+}
+
+
+.menu
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu__link 
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #bab9b9;
+    margin: 0 23px 0 23px;
+}
+
+.menu__link:hover
+{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #4581b7;
+    color: #4581b7;
+}
+
+.pr
+{
+    margin-top: 62px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.pr img{
+    width: 100%;
+}
+
+.rt
+{
+    display: flex;
+    /*text-align: center;  */
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+
+h3
+{
+    color: #4581b7;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.pr1
+{
+    max-width: 730px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 0px 100px 68px 40px;
+    justify-content: flex-start;
+    color: #7f7f7f;
+    line-height: 27px;
+}
+
+.pr2
+{
+    max-width: 350px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 0px 54px 0px 41px;
+    justify-content: flex-start;
+    color: #7f7f7f;
+    line-height: 27px;
+    margin-left: 30px;
+}
+
+
+.pr11
+{
+    display: flex;
+    padding: 48px 0px 0px 0px;
+    justify-content: flex-start;
+}
+
+.pr12
+{
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    justify-content: flex-start;
+}
+
+.rpp
+{
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    /* padding: 15px 41px; */
+    background: #f0f0f0;
+    justify-content: space-between;
+    text-align: right;
+}
+
+
+
+.im
+{
+    margin: 15px 0 15px 41px;
+}
+
+.por
+{
+    margin-top: 40px;
+    margin-right: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.por__tel
+{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 8px;
+}
+

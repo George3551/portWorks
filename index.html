@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Works</title>
+    <link rel="stylesheet" href="my-work/style/all.min.css">
+    <link rel="stylesheet" href="my-work/style/bootstrap.min.css">
+    <link rel="stylesheet" href="my-work/style/style.css">
+    <link rel="stylesheet" href="my-work/style/media.css">
+</head>
+
+<body>
+    <header class="header d-flex flex-column min-vh-100">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="logo" href="#"><span class="logo_color">my</span> works</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="far fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu ml-auto">
+                        <li class="nav-item">
+                            <a class="menu__link" href="#1">мои возможности</a>ss
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__link" href="#works">работы</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="menu__link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                контакты
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="tel:+998935954354">+998 93 595 43 54</a>
+                                <a class="dropdown-item" href="tel:+998935274354">+998 93 527 43 54</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item"
+                                    href="mailto:georgiyshatskiy@gmail.com">georgiyshatskiy@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__info d-flex flex-column justify-content-center flex-grow-1">
+            <div class="container">
+                <h1 class="header__title">моё портфолио</h1>
+                <p class="header__description"  id="works">Доброго времени суток, меня зовут Георгий. <br> Я занимаюсь версткой сайтов средней сложности с предоставленных макетов, с последующей их адаптацией под другие устройства.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <section class="container">
+            <div class="row justify-content-center">
+                <article class="col-12 col-lg-10 content d-flex flex-column align-items-center">
+                    <h2 class="content__title">Работы</h2>
+                    <p class="content__description">Нажав на кнопки ниже, вы можете увидеть мои работы. Все эти сайты были свёрстаны по учебным макетам. Нажав на ссылку "на главную" или на логотип вы сможете вернутся обратно в портфолио.</p>
+                </article>
+            </div>
+        </section>
+        <section class="tabs">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <ul class="nav col-lg-7 justify-content-around" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link " href="nike/index.html" role="tab">nike</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" href="sh/hmv.html" role="tab">silver house</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link"  href="orange-market/index.html" role="tab" id="1">orange-marketing</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link"  href="toshkent/htcd/index.html" role="tab">toshkent</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link"  href="burger/index.html" role="tab">street88</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="tabs__link" href="pizza/index.html" role="tab">pizzeria</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            
+        </section>
+        <section class="container">
+            <div class="row justify-content-center">
+                <article class="col-12 col-lg-10 content d-flex flex-column align-items-center">
+                    <h2 class="content__title">мои возможности</h2>
+                </article>
+                <div class="col-lg-8 col-md-10 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion__item">
+                            <!-- <div class="card-header">  -->
+                            <button class="accordion__button d-flex align-items-center w-100 " type="button"
+                                data-toggle="collapse" data-target="#html">
+                                <i class="fab fa-html5 accordion__icon"></i>html5
+                            </button>
+                            <!--  </div> -->
+
+                            <div id="html" class="collapse show" data-parent="#accordionExample">
+                                <p class="accordion__description">Язык разметки. Нужен для того, чтобы предать сайту основу, скелет.</p>
+
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <!-- <div class="card-header">  -->
+                            <button class="accordion__button d-flex align-items-center w-100 collapsed" type="button"
+                                data-toggle="collapse" data-target="#css3">
+                                <i class="fab fa-css3-alt accordion__icon"></i>css
+                            </button>
+                            <!--  </div> -->
+
+                            <div id="css3" class="collapse" data-parent="#accordionExample">
+                                <p class="accordion__description">Таблица стилей. Нужна для того, чтобы предать сайту свой собственный стиль</p>
+
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <!-- <div class="card-header">  -->
+                            <button class="accordion__button d-flex align-items-center w-100 collapsed" type="button"
+                                data-toggle="collapse" data-target="#boot4">
+                                <i class="fab fa-bootstrap
+                                accordion__icon"></i>bootstrap4
+                            </button>
+                            <!--  </div> -->
+
+                            <div id="boot4" class="collapse" data-parent="#accordionExample">
+                                <p class="accordion__description">CSS Фреймворк, с помощью которого я могу сделать адаптацию под любые устройства, будь то планшет, телефон или ноутбук.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center footer">
+        <a class="logo" href="#"><span class="logo_color">my</span> works</a>
+        <ul class="menu menu_margin d-flex flex-column flex-sm-row align-items-center">
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="#works">работы</a>
+            </li>
+        </ul>
+        <ul class="menu d-flex flex-column flex-sm-row align-items-center">
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="tel:+998935954354">+998 93 595 43 54</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin" href="tel:+998935274354">+998 93 527 43 54</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link menu__link_margin text-lowercase"
+                    href="mailto:georgiyshatskiy@gmail.com">georgiyshatskiy@gmail.com</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="my-work/js/popper.min.js"></script>
+    <script src="my-work/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="my-work/js/bootstrap.min.js"></script>
+</body>
+
+</html>
